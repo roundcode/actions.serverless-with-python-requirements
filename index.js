@@ -11,7 +11,7 @@ var ARGS = core.getInput('args')
 async function installServerlessAndPlugins() {
   await exeq(
     'echo Installing Serverless and plugins...',
-    'npm i serverless@2.12.0 -g',
+    'npm i serverless@2.12.10 -g',
     'npm i serverless-python-requirements@5.1.0',
     'npm i serverless-plugin-canary-deployments@0.4.8'
   )
